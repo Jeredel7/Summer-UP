@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Trophy;
+    src: url(./typo/Trophy.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: dodgerblue;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.body {
+    font-family: 'Oswald', sans-serif;
+    height: 120vh;
+}
+
+
+
+#bienvenida {
+    padding-top: 70px;
+    height: 200px;
+    text-align: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: palevioletred;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px dodgerblue;
+    display: inline-block;
+    margin: 0 120px;
+
+}
+
+.tickets {
+    text-align: center;
+    padding-top: 40px;
+    height: 200px;
+    background-color: palevioletred;
+    
+}
+
+.california {
+    padding-top: 17px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-family: 'Rubik Iso', cursive;
+    background-color: rgb(125, 115, 131);
+}
+.divP {
+    font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: aquamarine;
+}
+.gridResponsive{
+    display: flexbox;
+    flex-direction: column-reverse;
+    flex-wrap: initial;
+}
+.P{
+    font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: aquamarine;
+}
+.lineupcalifornia p {
+    background-color: aquamarine;
+}
